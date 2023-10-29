@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.food-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  column-gap: 100px;
+  row-gap: 20px;
+}
+
+.food-image-container {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 250px;
+  height: 500px;
+}
+
+.food-image {
+  width: 250px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+
+.food-image:hover {
+  transform: scale(1.1);
+  transition: transform 1s;
+}
+
+.food-info-container {
+  background-color: rgba(128, 182, 95, 0.9);
+  position: absolute;
+  bottom: 10%;
+  left: 0%;
+  width: 250px;
+  pointer-events: none;
+}
+
+.food-category {
+  padding-top: 15px;
+  font-weight: bold;
+  color: white;
+  font-size: 13px;
+}
+
+.food-name {
+  padding-bottom: 15px;
+  color: white;
+  font-size: 22px;
+}
