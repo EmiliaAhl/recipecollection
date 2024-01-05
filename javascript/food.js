@@ -16,7 +16,7 @@ const food = [
   {
     dishName: "Pizza",
     dishRating: 5,
-    dishCategory: "DINNER",
+    dishCategory: "LUNCH",
     dishPicture: "pizza.jpg",
     dishRecipe: "do all the stuff",
     dishIngredients: "5 stuffs \n 4 others",

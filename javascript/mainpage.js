@@ -14,7 +14,7 @@ food.forEach((food) => {
 
 document.querySelector(".food-grid").innerHTML = foodHTML;
 
-/*
+
 let dinnerHTML = "";
 
 food.forEach((food) => {
@@ -32,4 +32,4 @@ food.forEach((food) => {
 });
 
 document.querySelector(".dinner-grid").innerHTML = dinnerHTML;
-*/
+
