@@ -4,13 +4,9 @@
 }
 
 .food-grid {
-  display: grid;
-  grid-template-columns: 200px 200px 200px;
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
-  column-gap: 100px;
-  row-gap: 20px;
 }
 
 .food-image-container {
@@ -19,6 +15,7 @@
   overflow: hidden;
   width: 250px;
   height: 500px;
+  scroll-snap-align: start;
 }
 
 .food-image {
@@ -57,4 +54,17 @@
   padding-bottom: 15px;
   color: white;
   font-size: 22px;
+}
+
+.slider {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-snap-points-x: repeat(250px);
+  max-width: 810px;
+}
+
+.slider > div {
+  flex-shrink: 0;
+  margin-left: 30px;
 }

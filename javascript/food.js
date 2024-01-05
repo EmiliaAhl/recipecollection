@@ -61,4 +61,40 @@ const food = [
       unit: "hrs",
     },
   },
+  {
+    dishName: "Chicken Alfredo",
+    dishRating: 4,
+    dishCategory: "DINNER",
+    dishPicture: "chicken-alfredo.jpg",
+    dishRecipe: "hi",
+    dishIngredients: "hi",
+    dishTime: {
+      amount: 10,
+      unit: "hrs",
+    },
+  },
+  {
+    dishName: "Chicken Alfredo",
+    dishRating: 4,
+    dishCategory: "DINNER",
+    dishPicture: "chicken-alfredo.jpg",
+    dishRecipe: "hi",
+    dishIngredients: "hi",
+    dishTime: {
+      amount: 10,
+      unit: "hrs",
+    },
+  },
+  {
+    dishName: "Chicken Alfredo",
+    dishRating: 4,
+    dishCategory: "DINNER",
+    dishPicture: "chicken-alfredo.jpg",
+    dishRecipe: "hi",
+    dishIngredients: "hi",
+    dishTime: {
+      amount: 10,
+      unit: "hrs",
+    },
+  }
 ];
