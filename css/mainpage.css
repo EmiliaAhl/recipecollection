@@ -5,56 +5,7 @@
 
 .food-grid {
   text-align: center;
-  padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.food-image-container {
-  position: relative;
-  text-align: center;
-  overflow: hidden;
-  width: 250px;
-  height: 500px;
-  scroll-snap-align: start;
-  cursor: pointer;
-}
-
-.food-image {
-  width: 250px;
-  height: 500px;
-  align-items: center;
-  justify-content: center;
-  object-fit: cover;
-  object-position: center;
-  transform: scale(1);
-  transition: transform 0.5s;
-}
-
-.food-image:hover {
-  transform: scale(1.1);
-  transition: transform 1s;
-}
-
-.food-info-container {
-  background-color: rgba(128, 182, 95, 0.9);
-  position: absolute;
-  bottom: 10%;
-  left: 0%;
-  width: 250px;
-  pointer-events: none;
-}
-
-.food-category {
-  padding-top: 15px;
-  font-weight: bold;
-  color: white;
-  font-size: 13px;
-}
-
-.food-name {
-  padding-bottom: 15px;
-  color: white;
-  font-size: 22px;
 }
 
 .slider {
@@ -68,4 +19,38 @@
 .slider > div {
   flex-shrink: 0;
   margin-left: 30px;
+}
+
+.next-butt {
+  border-style: none;
+  font-size: 50px;
+  align-self: center;
+  margin-left: 10px;
+  border-radius: 100px;
+  height: 80px;
+  width: 100px;
+  cursor: pointer;
+  background-color: rgb(208, 208, 208);}
+
+.next-butt:active {
+  background-color: rgb(173, 173, 173);
+  transition: opacity 0.3s;
+}
+
+.all-link {
+  background-color: rgba(157, 157, 157, 0.876);
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.all-link:active {
+  background-color: rgba(200, 199, 199, 0.876);
+}
+
+.slider-container {
+  margin-top: 50px;
 }
