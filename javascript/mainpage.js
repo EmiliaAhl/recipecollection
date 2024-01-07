@@ -12,10 +12,6 @@ food.forEach((food) => {
   `;
 });
 
-foodHTML += `
-  <button class='next-butt'>&#62;</button>
-`
-
 document.querySelector(".food-grid").innerHTML = foodHTML;
 
 
