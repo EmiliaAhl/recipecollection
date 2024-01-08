@@ -19,7 +19,7 @@ const food = [
     dishRating: 5,
     dishCategory: "DINNER",
     dishPicture: "spaghetti_bolognese.jpeg",
-    dishIngredients: [' 800g Kycklingfärs', ' 2 Gula lökar', ' 4 Vitlöksklyftor / 4 krm Vitlökspulver', ' 2 Morötter', ' 1.5 dl Tomatpuré', ' 1.5 msk Salt', ' 1 msk Svartpeppar', ' 800g Krossade tomater', ' 2 dl Mjölk', ' Valfri Pasta'],
+    dishIngredients: [' 800g Kycklingfärs', ' 2 Gul lök', ' 4 Vitlöksklyftor / 4 krm Vitlökspulver', ' 2 Morot', ' 0.5 dl Tomatpuré', ' 0.5 msk Salt', ' 1 msk Svartpeppar', ' 800g Krossade tomater', ' 2 dl Mjölk', ' Valfri Pasta'],
     dishTime: {
       amount: 1,
       unit: "tim",

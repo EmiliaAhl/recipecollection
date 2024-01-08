@@ -1,0 +1,43 @@
+.main {
+  display: grid;
+  grid-template-columns: 300px 600px;
+  padding-top: 30px;
+  margin-left: 100px;
+}
+
+.left-container {
+  background-color: rgb(144, 238, 144);
+  padding-left: 20px;
+}
+
+.food-image {
+  width: 260px;
+  object-fit: cover;
+  object-position: center;
+  padding: 10px;
+}
+
+.right-container {
+  background-color: rgba(144, 238, 144, 0.958);
+  display: flex;
+  justify-content: center;
+}
+
+.title-container {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.food-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.food-portion {
+  font-size: 14px;
+}
+
+.steps {
+  margin-top: 20px;
+  margin-left: 10px;
+}
