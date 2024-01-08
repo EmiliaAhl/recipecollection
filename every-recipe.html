@@ -4,13 +4,63 @@
   <head>
     <title>Every Recipe</title>
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/food.css">
+    <link rel="stylesheet" href="css/every-recipe.css">
   </head>
   <body>
+    <div class="search-bar">
+      <input type="text" id="searchbar" onkeyup="search_recipe()" placeholder="Search for recipes">      
+    </div>
     <div class="main">
-      <div class="food-grid"></div>
+      <div class="food-list">
+        <a href="#">
+          <div class="food-image-container">
+            <div>
+              <div class="food-time">
+                <img class="food-time-image" src="assets/general/clock-icon.png">
+                <p class="food-time-text">10 min</p>
+              </div>
+              <div class="food-rating">
+                <img class="full-star" src="assets/general/full_star.png">
+                <img class="full-star" src="assets/general/full_star.png">
+                <img class="half-star" src="assets/general/half_star.png">
+                <img class="empty-star" src="assets/general/empty_star.png">
+                <img class="empty-star" src="assets/general/empty_star.png">
+              </div>
+              <img class="food-image" src="assets/food/pizza.jpg">
+            </div>
+            <div class="food-info-container">
+              <div class="food-name">Pizza</div>
+              <div class="food-category">Lunch</div>
+              <p class="food-ingredients"> 4 stuffs, 5 other </p>
+            </div>
+          </div>
+        </a>
+        <a href="#">
+          <div class="food-image-container">
+            <div>
+              <div class="food-time">
+                <img class="food-time-image" src="assets/general/clock-icon.png">
+                <div class="food-time-text">10 min</div>
+              </div>
+              <div class="food-rating">
+                <img class="full-star" src="assets/general/full_star.png">
+                <img class="full-star" src="assets/general/full_star.png">
+                <img class="half-star" src="assets/general/half_star.png">
+                <img class="empty-star" src="assets/general/empty_star.png">
+                <img class="empty-star" src="assets/general/empty_star.png">
+              </div>
+              <img class="food-image" src="assets/food/pizza.jpg">
+            </div>
+            <div class="food-info-container">
+              <div class="food-name">Pizza</div>
+              <div class="food-category">Lunch</div>
+              <p class="food-ingredients"> 4 stuffs, 5 other </p>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
     <script src="javascript/food.js"></script>
-    <script src="javascript/recipe.js"></script>
+    <script src="javascript/every-recipe.js"></script>
   </body>
 </html>

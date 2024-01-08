@@ -15,14 +15,14 @@ dishTime: {
 const food = [
   {
     dishName: "Pizza",
-    dishRating: 5,
+    dishRating: 2,
     dishCategory: "LUNCH",
     dishPicture: "pizza.jpg",
     dishRecipe: "do all the stuff",
-    dishIngredients: "5 stuffs \n 4 others",
+    dishIngredients: ['stuff', 'thing', 'hi'],
     dishTime: {
       amount: 10,
-      unit: "hour",
+      unit: "min",
     },
   },
   {
@@ -38,7 +38,7 @@ const food = [
     },
   },
   {
-    dishName: "Chicken Alfredo",
+    dishName: "Schnitzel",
     dishRating: 4,
     dishCategory: "DINNER",
     dishPicture: "chicken-alfredo.jpg",
@@ -50,7 +50,7 @@ const food = [
     },
   },
   {
-    dishName: "Chicken Alfredo",
+    dishName: "Tikki Masala",
     dishRating: 4,
     dishCategory: "DINNER",
     dishPicture: "chicken-alfredo.jpg",
@@ -62,7 +62,7 @@ const food = [
     },
   },
   {
-    dishName: "Chicken Alfredo",
+    dishName: "Falukorv",
     dishRating: 4,
     dishCategory: "DINNER",
     dishPicture: "chicken-alfredo.jpg",
@@ -74,7 +74,7 @@ const food = [
     },
   },
   {
-    dishName: "Chicken Alfredo",
+    dishName: "Köttbullar",
     dishRating: 4,
     dishCategory: "DINNER",
     dishPicture: "chicken-alfredo.jpg",
@@ -86,7 +86,7 @@ const food = [
     },
   },
   {
-    dishName: "Chicken Alfredo",
+    dishName: "Falukorv",
     dishRating: 4,
     dishCategory: "DINNER",
     dishPicture: "chicken-alfredo.jpg",

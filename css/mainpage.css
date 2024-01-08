@@ -21,24 +21,8 @@
   margin-right: 30px;
 }
 
-.next-butt {
-  border-style: none;
-  font-size: 50px;
-  align-self: center;
-  margin-left: 10px;
-  border-radius: 100px;
-  height: 80px;
-  width: 100px;
-  cursor: pointer;
-  background-color: rgb(208, 208, 208);}
-
-.next-butt:active {
-  background-color: rgb(173, 173, 173);
-  transition: opacity 0.3s;
-}
-
 .all-link {
-  background-color: rgba(157, 157, 157, 0.876);
+  background-color: rgba(125, 214, 125, 0.884);
   display: inline-block;
   color: rgb(0, 0, 0);
   padding: 5px 10px;
@@ -48,7 +32,7 @@
 }
 
 .all-link:active {
-  background-color: rgba(200, 199, 199, 0.876);
+  background-color: rgba(156, 233, 156, 0.772);
 }
 
 .slider-container {

@@ -1,7 +1,13 @@
 body {
   margin: 0;
-  background-image: url(background.jpg);
+  background-image: url(/assets/general/background.jpg);
   background-size: 250px;
   font-family: Tahoma;
   padding-bottom: 1000px;
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
