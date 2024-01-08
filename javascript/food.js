@@ -11,7 +11,7 @@ dishTime: {
   },
 dishPortions: ,
 dishLink: '',
-}
+},
 */
 
 const food = [
@@ -29,16 +29,30 @@ const food = [
     dishLink: 'spaghetti-bolognese'
   },
   {
-    dishName: "Chicken Alfredo",
-    dishRating: 4,
-    dishCategory: "DINNER",
-    dishPicture: "chicken-alfredo.jpg",
-    dishIngredients: [" 680g Kyckling", ' 1 tsk Oregano', ' 1 tsk Basil', ' 1 tsk Salt', ' 1 tsk Svartpeppar', ' Valfri Pasta', ' 4 Vitlöksklyftor / 4 krm Vitlökspulver', ' 3 msk Mjöl'],
-    dishTime: {
-      amount: 33,
-      unit: "min",
-      },
-    dishPortions: 6,
-    dishLink: 'chicken-alfredo'
-    }
+  dishName: "Chicken Alfredo",
+  dishRating: 4,
+  dishCategory: "DINNER",
+  dishPicture: "chicken-alfredo.jpg",
+  dishIngredients: [" 680g Kyckling", ' 1 tsk Oregano', ' 1 tsk Basil', ' 1 tsk Salt', ' 1 tsk Svartpeppar', ' Valfri Pasta', ' 4 Vitlöksklyftor / 4 krm Vitlökspulver', ' 3 msk Mjöl', ' 25g Parmesan ost'],
+  dishTime: {
+    amount: 33,
+    unit: "min",
+    },
+  dishPortions: 6,
+  dishLink: 'chicken-alfredo'
+},
+{
+  dishName: "Krutonger",
+  dishRating: 5,
+  dishCategory: "TILLBEHÖR",
+  dishPicture: "krutonger.jpeg",
+  dishIngredients: [" 4 skivor Ljust Bröd", ' Olivolja eller smör', ' Salt', ' Vitlökspulver'],
+  dishTime: {
+    amount: 5,
+    unit: "min",
+    },
+  dishPortions: '4-6',
+  dishLink: 'krutonger',
+  },
+    
 ];

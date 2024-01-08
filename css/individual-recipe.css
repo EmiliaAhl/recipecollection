@@ -12,6 +12,7 @@
 
 .food-image {
   width: 260px;
+  height: 260px;
   object-fit: cover;
   object-position: center;
   padding: 10px;
