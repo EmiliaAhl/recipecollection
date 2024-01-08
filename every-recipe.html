@@ -7,58 +7,19 @@
     <link rel="stylesheet" href="css/every-recipe.css">
   </head>
   <body>
+    <header>
+      <a href="https://emiliaahl.github.io/recipecollection">
+        <img class="home-icon" src="assets/general/home-icon.png">
+      </a>
+      <a href="https://emiliaahl.github.io/recipecollection/every-recipe.html">
+        <img class="home-icon" src="assets/general/search-icon.png">
+      </a>
+    </header>
     <div class="search-bar">
-      <input type="text" id="searchbar" onkeyup="search_recipe()" placeholder="Search for recipes">      
+      <input type="text" id="searchbar" onkeyup="search_recipe()" placeholder="Search for recipes or ingredients...">      
     </div>
     <div class="main">
-      <div class="food-list">
-        <a href="#">
-          <div class="food-image-container">
-            <div>
-              <div class="food-time">
-                <img class="food-time-image" src="assets/general/clock-icon.png">
-                <p class="food-time-text">10 min</p>
-              </div>
-              <div class="food-rating">
-                <img class="full-star" src="assets/general/full_star.png">
-                <img class="full-star" src="assets/general/full_star.png">
-                <img class="half-star" src="assets/general/half_star.png">
-                <img class="empty-star" src="assets/general/empty_star.png">
-                <img class="empty-star" src="assets/general/empty_star.png">
-              </div>
-              <img class="food-image" src="assets/food/pizza.jpg">
-            </div>
-            <div class="food-info-container">
-              <div class="food-name">Pizza</div>
-              <div class="food-category">Lunch</div>
-              <p class="food-ingredients"> 4 stuffs, 5 other </p>
-            </div>
-          </div>
-        </a>
-        <a href="#">
-          <div class="food-image-container">
-            <div>
-              <div class="food-time">
-                <img class="food-time-image" src="assets/general/clock-icon.png">
-                <div class="food-time-text">10 min</div>
-              </div>
-              <div class="food-rating">
-                <img class="full-star" src="assets/general/full_star.png">
-                <img class="full-star" src="assets/general/full_star.png">
-                <img class="half-star" src="assets/general/half_star.png">
-                <img class="empty-star" src="assets/general/empty_star.png">
-                <img class="empty-star" src="assets/general/empty_star.png">
-              </div>
-              <img class="food-image" src="assets/food/pizza.jpg">
-            </div>
-            <div class="food-info-container">
-              <div class="food-name">Pizza</div>
-              <div class="food-category">Lunch</div>
-              <p class="food-ingredients"> 4 stuffs, 5 other </p>
-            </div>
-          </div>
-        </a>
-      </div>
+      <div class="food-list"></div>
     </div>
     <script src="javascript/food.js"></script>
     <script src="javascript/every-recipe.js"></script>

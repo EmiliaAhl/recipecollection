@@ -4,10 +4,18 @@ body {
   background-size: 250px;
   font-family: Tahoma;
   padding-bottom: 1000px;
-  padding-top: 50px;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+header {
+  margin-left: 50px;
+}
+
+.home-icon {
+  height: 50px;
+  margin-top: 20px;
 }

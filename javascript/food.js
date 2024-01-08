@@ -4,97 +4,38 @@ dishName: "",
 dishRating: ,
 dishCategory: "",
 dishPicture: "",
-dishRecipe: "",
-dishIngredients: "",
+dishIngredients: [""],
 dishTime: {
   amount: ,
   unit: "",
-}, }
+  },
+dishPortions: ,
+}
 */
 
 const food = [
   {
-    dishName: "Pizza",
-    dishRating: 2,
-    dishCategory: "LUNCH",
-    dishPicture: "pizza.jpg",
-    dishRecipe: "do all the stuff",
-    dishIngredients: ['stuff', 'thing', 'hi'],
+    dishName: "Spaghetti Bolognese",
+    dishRating: 5,
+    dishCategory: "DINNER",
+    dishPicture: "spaghetti_bolognese.jpeg",
+    dishIngredients: [' 800g Kycklingfärs', ' 2 Gula lökar', ' 4 Vitlöksklyftor / 4 krm Vitlökspulver', ' 2 Morötter', ' 1.5 dl Tomatpuré', ' 1.5 msk Salt', ' 1 msk Svartpeppar', ' 800g Krossade tomater', ' 2 dl Mjölk', ' Valfri Pasta'],
     dishTime: {
-      amount: 10,
-      unit: "min",
+      amount: 1,
+      unit: "tim",
     },
+    dishPortions: 8,
   },
   {
     dishName: "Chicken Alfredo",
     dishRating: 4,
     dishCategory: "DINNER",
     dishPicture: "chicken-alfredo.jpg",
-    dishRecipe: "hi",
-    dishIngredients: "hi",
+    dishIngredients: [" 680g Kyckling", ' 1 tsk Oregano', ' 1 tsk Basil', ' 1 tsk Salt', ' 1 tsk Svartpeppar', ' Valfri Pasta', ' 4 Vitlöksklyftor / 4 krm Vitlökspulver', ' 3 msk Mjöl'],
     dishTime: {
-      amount: 10,
-      unit: "hrs",
-    },
-  },
-  {
-    dishName: "Schnitzel",
-    dishRating: 4,
-    dishCategory: "DINNER",
-    dishPicture: "chicken-alfredo.jpg",
-    dishRecipe: "hi",
-    dishIngredients: "hi",
-    dishTime: {
-      amount: 10,
-      unit: "hrs",
-    },
-  },
-  {
-    dishName: "Tikki Masala",
-    dishRating: 4,
-    dishCategory: "DINNER",
-    dishPicture: "chicken-alfredo.jpg",
-    dishRecipe: "hi",
-    dishIngredients: "hi",
-    dishTime: {
-      amount: 10,
-      unit: "hrs",
-    },
-  },
-  {
-    dishName: "Falukorv",
-    dishRating: 4,
-    dishCategory: "DINNER",
-    dishPicture: "chicken-alfredo.jpg",
-    dishRecipe: "hi",
-    dishIngredients: "hi",
-    dishTime: {
-      amount: 10,
-      unit: "hrs",
-    },
-  },
-  {
-    dishName: "Köttbullar",
-    dishRating: 4,
-    dishCategory: "DINNER",
-    dishPicture: "chicken-alfredo.jpg",
-    dishRecipe: "hi",
-    dishIngredients: "hi",
-    dishTime: {
-      amount: 10,
-      unit: "hrs",
-    },
-  },
-  {
-    dishName: "Falukorv",
-    dishRating: 4,
-    dishCategory: "DINNER",
-    dishPicture: "chicken-alfredo.jpg",
-    dishRecipe: "hi",
-    dishIngredients: "hi",
-    dishTime: {
-      amount: 10,
-      unit: "hrs",
-    },
-  }
+      amount: 33,
+      unit: "min",
+      },
+    dishPortions: 6,
+    }
 ];

@@ -14,11 +14,14 @@ food.forEach((food) => {
     </div>
     <div class="food-info-container">
       <div class="food-name">${food.dishName}</div>
-      <div class="food-category">${food.dishCategory} </div>
-      <ul class="food-ingredients">
-        <li> ${food.dishIngredients}
-        </li>
-      </ul>
+      <div class='food-portion'>(${food.dishPortions} port)</div>
+      <div class="food-category">${food.dishCategory}</div>
+      <div class="food-ingredients">
+        You will need: ${food.dishIngredients}
+      </div>
+      <div>
+
+      </div>
     </div>
   </div>
 </a>
@@ -34,13 +37,14 @@ function search_recipe() {
   input = input.toLowerCase();
   let x = document.getElementsByClassName('food-name');
   let y = document.getElementsByClassName('food-image-container')
+  let z = document.getElementsByClassName('food-ingredients')
  
   for (i = 0; i < x.length; i++) {
-    if (!x[i].innerHTML.toLowerCase().includes(input)) {
+    if (!x[i].innerHTML.toLowerCase().includes(input) && !z[i].innerHTML.toLowerCase().includes(input)) {
       y[i].style.display = "none";
     }
     else {
-      y[i].style.display = "list-item";
+      y[i].style.display = "grid";
     }
   }
 }
