@@ -48,7 +48,7 @@ const food = [
   dishPicture: "krutonger.jpeg",
   dishIngredients: [" 4 skivor Ljust Bröd", ' Olivolja eller smör', ' Salt', ' Vitlökspulver'],
   dishTime: {
-    amount: 5,
+    amount: 10,
     unit: "min",
     },
   dishPortions: '4-6',
