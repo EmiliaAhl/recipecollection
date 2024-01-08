@@ -10,6 +10,7 @@ dishTime: {
   unit: "",
   },
 dishPortions: ,
+dishLink: '',
 }
 */
 
@@ -25,6 +26,7 @@ const food = [
       unit: "tim",
     },
     dishPortions: 8,
+    dishLink: 'spaghetti-bolognese'
   },
   {
     dishName: "Chicken Alfredo",
@@ -37,5 +39,6 @@ const food = [
       unit: "min",
       },
     dishPortions: 6,
+    dishLink: 'chicken-alfredo'
     }
 ];

@@ -19,13 +19,13 @@ let nameRecipe = food.sort(function(a, b) {
 
 food.forEach((food) => {
   foodHTML += `
-  <div class="food-image-container">
+  <a class="food-image-container" href='https://emiliaahl.github.io/recipecollection/${food.dishLink}.html' >
     <img class="food-image" src="assets/food/${food.dishPicture}" />
     <div class="food-info-container">
       <div class="food-category">${food.dishCategory}</div>
       <div class="food-name">${food.dishName}</div>
     </div>
-  </div>
+  </a>
   `;
 });
 

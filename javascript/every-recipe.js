@@ -2,7 +2,7 @@ let foodHTML = "";
 
 food.forEach((food) => {
   foodHTML += `
-  <a href="#">
+  <a href="https://emiliaahl.github.io/recipecollection/${food.dishLink}.html">
   <div class="food-image-container">
     <div>
       <div class="food-time">

@@ -16,7 +16,7 @@
   max-width: 810px;
 }
 
-.slider > div {
+.slider > a {
   flex-shrink: 0;
   margin-right: 30px;
 }
