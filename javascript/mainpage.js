@@ -31,22 +31,97 @@ food.forEach((food) => {
 
 document.querySelector(".food-grid").innerHTML = foodHTML;
 
-
+//Dinner
 let dinnerHTML = "";
 
 food.forEach((food) => {
   if (food.dishCategory == "DINNER") {
     dinnerHTML += `
-  <div class="food-image-container">
-  <img class="food-image" src="assets/food/${food.dishPicture}" />
-  <div class="food-info-container">
-    <div class="food-category">${food.dishCategory}</div>
-    <div class="food-name">${food.dishName}</div>
-  </div>
-</div>
+    <a class="food-image-container" href='https://emiliaahl.github.io/recipecollection/${food.dishLink}.html' >
+    <img class="food-image" src="assets/food/${food.dishPicture}" />
+    <div class="food-info-container">
+      <div class="food-category">${food.dishCategory}</div>
+      <div class="food-name">${food.dishName}</div>
+    </div>
+  </a>
   `;
   }
 });
 
 document.querySelector(".dinner-grid").innerHTML = dinnerHTML;
 
+//Lunch
+let lunchHTML = "";
+
+food.forEach((food) => {
+  if (food.dishCategory == "LUNCH") {
+    lunchHTML += `
+    <a class="food-image-container" href='https://emiliaahl.github.io/recipecollection/${food.dishLink}.html' >
+    <img class="food-image" src="assets/food/${food.dishPicture}" />
+    <div class="food-info-container">
+      <div class="food-category">${food.dishCategory}</div>
+      <div class="food-name">${food.dishName}</div>
+    </div>
+  </a>
+  `;
+  }
+});
+
+document.querySelector(".lunch-grid").innerHTML = lunchHTML;
+
+//Breakfast
+let breakfastHTML = "";
+
+food.forEach((food) => {
+  if (food.dishCategory == "BREAKFAST") {
+    breakfastHTML += `
+    <a class="food-image-container" href='https://emiliaahl.github.io/recipecollection/${food.dishLink}.html' >
+    <img class="food-image" src="assets/food/${food.dishPicture}" />
+    <div class="food-info-container">
+      <div class="food-category">${food.dishCategory}</div>
+      <div class="food-name">${food.dishName}</div>
+    </div>
+  </a>
+  `;
+  }
+});
+
+document.querySelector(".breakfast-grid").innerHTML = breakfastHTML;
+
+//Snack
+let snackHTML = "";
+
+food.forEach((food) => {
+  if (food.dishCategory == "SNACK") {
+    snackHTML += `
+    <a class="food-image-container" href='https://emiliaahl.github.io/recipecollection/${food.dishLink}.html' >
+    <img class="food-image" src="assets/food/${food.dishPicture}" />
+    <div class="food-info-container">
+      <div class="food-category">${food.dishCategory}</div>
+      <div class="food-name">${food.dishName}</div>
+    </div>
+  </a>
+  `;
+  }
+});
+
+document.querySelector(".snack-grid").innerHTML = snackHTML;
+
+//Dinner
+let extraHTML = "";
+
+food.forEach((food) => {
+  if (food.dishCategory == "TILLBEHÖR") {
+    extraHTML += `
+    <a class="food-image-container" href='https://emiliaahl.github.io/recipecollection/${food.dishLink}.html' >
+    <img class="food-image" src="assets/food/${food.dishPicture}" />
+    <div class="food-info-container">
+      <div class="food-category">${food.dishCategory}</div>
+      <div class="food-name">${food.dishName}</div>
+    </div>
+  </a>
+  `;
+  }
+});
+
+document.querySelector(".extra-grid").innerHTML = extraHTML;

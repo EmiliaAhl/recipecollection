@@ -54,5 +54,17 @@ const food = [
   dishPortions: '4-6',
   dishLink: 'krutonger',
   },
-    
+  {
+    dishName: "Äggröra",
+    dishRating: 5,
+    dishCategory: "BREAKFAST",
+    dishPicture: "aggrora-med-bacon.jpeg",
+    dishIngredients: [" 2 Ägg", ' 1 msk Mjölk / Grädde', ' 0.5 paket Bacon', ' Salt', ' Svartpeppar'],
+    dishTime: {
+      amount: 10,
+      unit: "min",
+      },
+    dishPortions: 1,
+    dishLink: 'aggrora',
+    },    
 ];

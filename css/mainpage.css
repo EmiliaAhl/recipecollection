@@ -3,9 +3,14 @@
   justify-content: center;
 }
 
-.food-grid {
+.food-grid,
+.dinner-grid,
+.lunch-grid,
+.breakfast-grid,
+.snack-grid,
+.extra-grid {
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 .slider {
