@@ -1,3 +1,16 @@
+let nameRecipe = food.sort(function (a, b) {
+  const nameA = a.dishName.toUpperCase();
+  const nameB = b.dishName.toUpperCase();
+  if (nameA > nameB) {
+    return 1;
+  }
+  if (nameA < nameB) {
+    return -1;
+  }
+
+  return 0;
+});
+
 let foodHTML = "";
 
 food.forEach((food) => {
@@ -38,7 +51,7 @@ function search_recipe() {
   let x = document.getElementsByClassName('food-name');
   let y = document.getElementsByClassName('food-image-container')
   let z = document.getElementsByClassName('food-ingredients')
- 
+
   for (i = 0; i < x.length; i++) {
     if (!x[i].innerHTML.toLowerCase().includes(input) && !z[i].innerHTML.toLowerCase().includes(input)) {
       y[i].style.display = "none";
