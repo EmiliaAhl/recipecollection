@@ -4,7 +4,7 @@ let foodHTML = "";
   (r1, r2) => (r1.dishRating < r2.dishRating) ? 1 : (r1.dishRating > r2.dishRating) ? -1 : 0)
 */
 
-let nameRecipe = food.sort(function(a, b) {
+let nameRecipe = food.sort(function (a, b) {
   const nameA = a.dishName.toUpperCase();
   const nameB = b.dishName.toUpperCase();
   if (nameA > nameB) {
@@ -107,7 +107,7 @@ food.forEach((food) => {
 
 document.querySelector(".snack-grid").innerHTML = snackHTML;
 
-//Dinner
+//Tillbehör
 let extraHTML = "";
 
 food.forEach((food) => {
@@ -125,3 +125,22 @@ food.forEach((food) => {
 });
 
 document.querySelector(".extra-grid").innerHTML = extraHTML;
+
+//Efterrätt
+let efterHTML = "";
+
+food.forEach((food) => {
+  if (food.dishCategory == "EFTERRÄTT") {
+    efterHTML += `
+    <a class="food-image-container" href='https://emiliaahl.github.io/recipecollection/${food.dishLink}.html' >
+    <img class="food-image" src="assets/food/${food.dishPicture}" />
+    <div class="food-info-container">
+      <div class="food-category">${food.dishCategory}</div>
+      <div class="food-name">${food.dishName}</div>
+    </div>
+  </a>
+  `;
+  }
+});
+
+document.querySelector(".efter-grid").innerHTML = efterHTML;

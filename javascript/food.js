@@ -122,7 +122,7 @@ const food = [
   {
     dishName: "Raggmunkar",
     dishRating: 4,
-    dishCategory: "DINNER",
+    dishCategory: "LUNCH",
     dishPicture: "raggmunk.jpeg",
     dishIngredients: [" 1 Potatis", ' 1 Morot', ' 2 Ägg', ' 2 dl Mjölk', ' 2 dl Mjöl', ' Salt', ' 0.5 Paket Bacon'],
     dishTime: {
@@ -132,4 +132,33 @@ const food = [
     dishPortions: 1,
     dishLink: 'raggmunk',
   },
+  {
+    dishName: "Kycklingwrap",
+    dishRating: 3,
+    dishCategory: "LUNCH",
+    dishPicture: "chicken-wrap.jpeg",
+    dishIngredients: [" 2 Kycklingfiléer", ' Valfri kryddning', ' Valfria grönsaker', ' Valfri sås', ' 2 Tortilla bröd'],
+    dishTime: {
+      amount: 30,
+      unit: "min",
+    },
+    dishPortions: 2,
+    dishLink: 'chicken-wrap',
+  },
 ];
+
+/*
+{
+dishName: "",
+dishRating: ,
+dishCategory: "",
+dishPicture: "",
+dishIngredients: [""],
+dishTime: {
+  amount: ,
+  unit: "",
+  },
+dishPortions: ,
+dishLink: '',
+},
+*/
