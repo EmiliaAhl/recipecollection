@@ -66,5 +66,31 @@ const food = [
       },
     dishPortions: 1,
     dishLink: 'aggrora',
-    },    
+    },
+    {
+      dishName: "Baguette med Ost & Tomat",
+      dishRating: 3,
+      dishCategory: "LUNCH",
+      dishPicture: "baguette-ost-tomat.jpg",
+      dishIngredients: [" 1 liten Baguette", ' 1.5 dl Krossade Tomater', ' 1 Vitlöksklyfta / 1 krm Vitlökspulver', ' Riven ost', ' Salt', ' Svartpeppar', ' 1 tsk Oregano'],
+      dishTime: {
+        amount: 20,
+        unit: "min",
+        },
+      dishPortions: 1,
+      dishLink: 'baguette-ost-tomat',
+      },
+      {
+        dishName: "Vitlökssås",
+        dishRating: 3,
+        dishCategory: "TILLBEHÖR",
+        dishPicture: "vitlökssås.jpeg",
+        dishIngredients: [" 1 dl Turkisk Yoghurt", ' Pressad Vitlöksklyfta / Vitlökspulver'],
+        dishTime: {
+          amount: 3,
+          unit: "min",
+          },
+        dishPortions: 2,
+        dishLink: 'vitlokssas',
+        },
 ];
