@@ -145,6 +145,32 @@ const food = [
     dishPortions: 2,
     dishLink: 'chicken-wrap',
   },
+  {
+    dishName: "Spaghetti med Kyckling- & Baconsås",
+    dishRating: 5,
+    dishCategory: "DINNER",
+    dishPicture: "spaghetti-bacon-kyckling.jpg",
+    dishIngredients: [" 400g Spaghetti", ' 140g Bacon', ' 500g Kycklingfilé', ' 4 dl Crème Fraiche', ' 1 dl Vispgrädde', ' 2 msk Koncentrerad Kycklingfond', ' 2 msk Chilisås', ' Salt', ' Svartpeppar'],
+    dishTime: {
+      amount: 20,
+      unit: "min",
+    },
+    dishPortions: 4,
+    dishLink: 'spaghetti-kyckling-bacon',
+  },
+  {
+    dishName: "Kyckling med Duchessepotatis",
+    dishRating: '?',
+    dishCategory: "DINNER",
+    dishPicture: "kyckling-duchesse.jpeg",
+    dishIngredients: [" 12 Kycklininnerfiléer", ' Valfri kryddning', ' 1 kg Mjölig Potatis', ' 1 dl Vispgrädde', ' 2 Äggulor', ' Salt', ' Svartpeppar'],
+    dishTime: {
+      amount: '?',
+      unit: "?",
+    },
+    dishPortions: 4,
+    dishLink: 'kyckling-duchesse',
+  },
 ];
 
 /*
