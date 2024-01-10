@@ -171,6 +171,19 @@ const food = [
     dishPortions: 4,
     dishLink: 'kyckling-duchesse',
   },
+  {
+    dishName: "Sockerkaka",
+    dishRating: 5,
+    dishCategory: "EFTERRÄTT",
+    dishPicture: "cokerkaka.jpeg",
+    dishIngredients: [" 75g Smör", ' 1 dl Mjölk', ' 2 Ägg', ' 2 dl Strösocker', ' 2 tsk Vaniljsocker', ' 3 dl Vetemjöl', ' 1.5 tsk Bakpulver'],
+    dishTime: {
+      amount: 45,
+      unit: "min",
+    },
+    dishPortions: 10,
+    dishLink: 'sockerkaka',
+  },
 ];
 
 /*
