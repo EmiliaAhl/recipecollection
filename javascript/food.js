@@ -184,6 +184,19 @@ const food = [
     dishPortions: 10,
     dishLink: 'sockerkaka',
   },
+  {
+    dishName: "Spaghetti Carbonara",
+    dishRating: 5,
+    dishCategory: "DINNER",
+    dishPicture: "spaghetti-carbonara.jpeg",
+    dishIngredients: [" 300g Spaghetti", ' 1 paket Bacon', ' 0.5 dl Vispgrädde', ' 0.5 tsk Salt', ' 1 Vitlöksklyfta / 1 krm Vitlökspulver', ' 1.5 dl Riven ost', ' 2 krm Svartpeppar'],
+    dishTime: {
+      amount: 15,
+      unit: "min",
+    },
+    dishPortions: 4,
+    dishLink: 'spaghetti-carbonara',
+  },
 ];
 
 /*
